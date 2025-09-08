@@ -493,6 +493,10 @@ a {
     #sec-2 {
         width: 160vw;
     }
+    .sec2-box img {
+    width: 7em;
+    height: 5em;
+    }
 
     #sec-3 {
         width: 115vw;
@@ -577,6 +581,7 @@ a {
 
     .foot-text2 {
         width: 100%;
+        gap: 70px;
     }
 
     .foot-text1 i {
