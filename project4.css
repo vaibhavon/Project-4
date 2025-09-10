@@ -429,12 +429,20 @@ a {
 .foot-text1 i {
     margin: 5px;
     margin-top: 30px;
-    color: #e5c41e;
+    color: black;
+    font-size: 20px;
+    background-color: #f5d226;
     border-radius: 40px;
+    border: 2px solid #f5d226;
+    padding: 6px;
+    transition: 0.3s;
+
 }
 
-.foot-text1 i:hover{
-    box-shadow: 0px 0px 20px 2px whitesmoke;
+.foot-text1 i:hover {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 2px white;
 }
 
 .foot-text2 {
@@ -451,8 +459,10 @@ a {
     line-height: 40px;
 }
 
-.ftext-1 p:hover{
+.ftext-1 p:hover {
     color: #e5c41e;
+    transition: color 0.3s;
+
 }
 
 .ft-2 {
@@ -462,7 +472,16 @@ a {
 @media screen and (max-width:480px) {
     #head {
         width: 100%;
-        height: 10%;
+        height: 8%;
+    }
+
+    .head-logo {
+        font-size: 35px;
+    }
+
+    .head-button {
+        width: 10em;
+        height: 4em;
     }
 
     a {
@@ -471,8 +490,9 @@ a {
 
     #sec-1 {
         width: 150%;
-        height: 125vh;
+        height: 75vh;
         margin-left: 20px;
+        margin-top: 80px;
     }
 
     .sec1-box {
@@ -482,27 +502,27 @@ a {
     }
 
     .sec-text1 {
-        width: 40vh;
-        height: 60vh;
+        height: 50vh;
         line-height: 40px;
     }
 
     .sec1-img {
-        width: 47%;
-        height: 50%;
+        width: 45%;
+        height: 55%;
     }
 
     #sec-2 {
         width: 160vw;
     }
+
     .sec2-box img {
-    width: 7em;
-    height: 5em;
+        width: 7em;
+        height: 5em;
     }
 
     #sec-3 {
         width: 115vw;
-        height: 75vh;
+        height: 50vh;
     }
 
     .sec3-box {
@@ -516,7 +536,7 @@ a {
 
     .sec3-semibox {
         width: 50%;
-        height: 50%;
+        height: 65%;
     }
 
     .sec3-img {
@@ -525,17 +545,17 @@ a {
 
     #sec-4 {
         width: 160vw;
-        height: 70vh;
+        height: 50vh;
     }
 
     .sec4-text {
         width: 70%;
-        height: 55vh;
+        height: 35vh;
         padding: 0;
     }
 
     .sec4-img {
-        height: 60vh;
+        height: 90%;
     }
 
     .s4-text1 {
@@ -544,36 +564,34 @@ a {
 
     #sec-5 {
         width: 160vw;
-        height: 110vh;
+        height: 150vh;
     }
 
     .s5-cubebox {
         width: 100%;
-        height: 45%;
-        gap: 20px;
-        flex-direction: row;
     }
 
     .s5-box {
-        height: 50vh;
-        gap: 25px;
+        height: 35vh;
+        gap: 30px;
         justify-content: normal;
     }
 
     .s5-semibox {
-        height: 32vh;
+        height: 30vh;
+        width: 45%;
     }
 
     #sec-6 {
         width: 160vw;
-        height: 60vh;
+        height: 35vh;
     }
 
     #foot {
         padding-left: 50px;
         padding-top: 50px;
         width: 160vw;
-        height: 80vh;
+        height: 55vh;
         flex-direction: column;
         align-items: normal;
     }
