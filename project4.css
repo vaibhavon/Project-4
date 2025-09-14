@@ -24,12 +24,13 @@
 .head-logo {
     width: 30%;
     font-size: 25px;
+    font-weight: 800;
 }
 
 .text-head {
     height: 3rem;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
     width: 50%;
     text-align: center;
     display: flex;
@@ -278,7 +279,7 @@ a {
 .sec4-text {
     padding-left: 140px;
     width: 50%;
-    height: 50vh;
+    height: 50%;
     line-height: 25px;
     position: absolute;
 }
@@ -502,13 +503,20 @@ a {
     }
 
     .sec-text1 {
-        height: 50vh;
+        width: 30%;
+        height: 75%;
+        padding: 0;
+        line-height: 30px;
+    }
+
+    .sec1-box h1 {
+        font-size: 20px;
         line-height: 35px;
     }
 
     .sec1-img {
-        width: 45%;
-        height: 55%;
+        width: 50%;
+        height: 75%;
     }
 
     #sec-2 {
@@ -521,12 +529,12 @@ a {
     }
 
     #sec-3 {
-        width: 115vw;
+        width: 145%;
         height: 50vh;
     }
 
     .sec3-box {
-        width: 120%;
+        width: 100%;
         height: 80%;
     }
 
@@ -544,18 +552,21 @@ a {
     }
 
     #sec-4 {
-        width: 160vw;
-        height: 50vh;
+        width: 160%;
+        height: 60vh;
     }
 
     .sec4-text {
-        width: 70%;
-        height: 35vh;
+        width: 80%;
+        height: 50%;
         padding: 0;
     }
 
     .sec4-img {
-        height: 90%;
+        height: 100%;
+    }
+    .sec4-text h1{
+        font-size: 30px;
     }
 
     .s4-text1 {
@@ -583,29 +594,34 @@ a {
     }
 
     #sec-6 {
-        width: 160vw;
-        height: 35vh;
+        width: 160%;
+        height: 50vh;
     }
 
     #foot {
-        padding-left: 50px;
-        padding-top: 50px;
+        padding: 30px 10px 0 30px;
         width: 160vw;
-        height: 55vh;
+        height: 75%;
         flex-direction: column;
         align-items: normal;
+        gap: 20px;
     }
 
     .foot-text1 {
-        width: 70%;
+        width: 90%;
+        height: 70%;
     }
 
     .foot-text2 {
         width: 100%;
-        gap: 70px;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .ftext-1{
+        width: auto;
     }
 
     .foot-text1 i {
-        margin: 15px;
+        margin: 15px 10px 5px 10px;
     }
 }
