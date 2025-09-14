@@ -90,14 +90,6 @@ a {
     color: #f92b2b;
 }
 
-marquee,
-mark {
-    font-weight: 700;
-    height: 20px;
-    color: white;
-    background-color: #ff0000;
-}
-
 /* section-mid  */
 #select-option {
     height: 80px;
@@ -204,9 +196,10 @@ mark {
     grid-column: span 2;
     width: 100%;
     height: 100%;
+    border-bottom:3px solid black;
 }
 
-.text-boximg #banner {
+.text-boximg img{
     width: 100%;
     height: 100%;
 }

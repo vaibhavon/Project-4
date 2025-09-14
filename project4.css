@@ -80,7 +80,7 @@ a {
 /* SECTION-1  */
 
 #sec-1 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin-top: 30px;
     display: flex;
@@ -155,7 +155,7 @@ a {
 /* SECTION-2  */
 
 #sec-2 {
-    width: 100vw;
+    width: 100%;
     height: 8em;
     background-color: #f5d226;
 
@@ -257,7 +257,7 @@ a {
 
 /* Section-4   */
 #sec-4 {
-    width: 100vw;
+    width: 100%;
     height: 85vh;
     display: flex;
     justify-content: flex-end;
@@ -363,7 +363,7 @@ a {
 
 /* Section-6 */
 #sec-6 {
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     background-color: #e5c41e;
     text-align: center;
@@ -406,8 +406,8 @@ a {
 /* Footer  */
 
 #foot {
-    width: 100vw;
-    height: 45vh;
+    width: 100%;
+    height: 30vh;
     background-color: black;
     display: flex;
     align-items: center;
