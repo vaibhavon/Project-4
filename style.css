@@ -230,15 +230,16 @@ a {
 }
 
 .text-let1 img {
+    object-fit: fill;
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    transition: 0.5s;
 }
 
 .text-let1 img:hover {
     transform: translateY(-6px);
     box-shadow: 3px 6px 10px 2px gray;
-    transition: 0.5s;
 }
 
 .text-let2 {
@@ -483,5 +484,15 @@ a {
 
     .foot-text1 i {
         margin: 15px 10px 5px 10px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:780px) {
+    .text-let2{
+        width: 95%;
+    }
+    .text-let2 p {
+        font-size: 10px;
+        width: auto;
     }
 }
