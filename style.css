@@ -116,7 +116,7 @@ a {
     transition: 0.4s;
 }
 
-#sort option{
+#sort option {
     text-align: center;
 }
 
@@ -201,10 +201,10 @@ a {
     grid-column: span 2;
     width: 100%;
     height: 100%;
-    border-bottom:3px solid black;
+    border-bottom: 3px solid black;
 }
 
-.text-boximg img{
+.text-boximg img {
     width: 100%;
     height: 100%;
 }
@@ -423,7 +423,8 @@ a {
         height: 45%;
         font-size: 10px;
     }
-    .text-option1 label{
+
+    .text-option1 label {
         font-size: 15px;
     }
 
@@ -459,7 +460,7 @@ a {
         height: 80px;
     }
 
-     #foot {
+    #foot {
         padding: 30px 10px 0 30px;
         width: 152%;
         height: 75%;
@@ -478,7 +479,8 @@ a {
         gap: 0;
         justify-content: space-between;
     }
-    .ftext-1{
+
+    .ftext-1 {
         width: auto;
     }
 
@@ -488,11 +490,55 @@ a {
 }
 
 @media screen and (min-width:480px) and (max-width:780px) {
-    .text-let2{
-        width: 95%;
+
+    /* head  */
+    .text-head input {
+        width: 20%;
     }
+
+    /* text-img  */
+    .text-option1 label {
+        font-size: 15px;
+    }
+
+    #sort {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .text-let2 {
+        width: 95%;
+        line-height: 25px;
+    }
+
     .text-let2 p {
+        gap: 6px;
         font-size: 10px;
         width: auto;
     }
+
+    #grid-cointainer {
+        grid-template-columns: 40% 1fr 2fr;
+                grid-template-rows: 6% 5% 84% 5%;
+
+    }
+
+    .text-let1 aside {
+        height: 157px;
+    }
+    .text-box2 {
+        margin-top: 25px;
+    }
+   /* foot  */
+   #foot{
+    height: auto;
+    padding: 10px;
+   }
+   .foot-text1 {
+    width: 35%;
+   }
+   .foot-text2 {
+    width: auto;
+    gap: 20px;
+   }
 }

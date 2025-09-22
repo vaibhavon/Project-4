@@ -414,6 +414,7 @@
 #foot {
     width: 100%;
     height: auto;
+    padding: 20px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -714,29 +715,32 @@
         font-size: 20px;
     }
 
-    #sec-6 p{
+    #sec-6 p {
         font-size: 15px;
     }
 
     #sec-6 input {
-    width: 350px;
-    height: 35px;
+        width: 350px;
+        height: 35px;
     }
 
     /* footer  */
-    #foot{
+    #foot {
+        padding: 25px;
         font-size: 12px;
     }
-    
-.foot-text1 h1 {
-    margin-bottom: 10px;
-    font-size: 22px;
-}
-.foot-text1 i{
-    margin-top: 15px;
-}
-.ftext-1{
-    font-size: 12px;
-    line-height: 25px;
-}
+
+    .foot-text1 h1 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .foot-text1 i {
+        margin-top: 15px;
+    }
+
+    .ftext-1 {
+        font-size: 12px;
+        line-height: 25px;
+    }
 }
